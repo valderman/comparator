@@ -148,7 +148,7 @@ we determine who to call for comfort after breaking up with a significant
 other.
 
 In the functional programming world, this is often solved by using explicit
-*comparator functions*, as demonstrated by this Haskell snippet:
+**comparator functions**, as demonstrated by this Haskell snippet:
 
     -- Data type representing an ordering of two objects.
     data Ordering = LessThan | Equal | GreaterThan
@@ -302,16 +302,16 @@ Closing remarks
 I hope this example helped illustrate the differences between `Comparable` and
 `Comparator`, how to use them, and when to use which of them. To recap:
 
-  * When comparing objects that have *a single objective, canonical ordering*,
+  * When comparing objects that have **a single objective, canonical ordering**,
     use `Comparable`. Examples: numbers, keys in a dictionary, units of
     measurement.
 
-  * To use `Comparable` with a class, your class should *implement*
+  * To use `Comparable` with a class, your class should **implement**
     `Comparable<MyClass>` and its `compareTo` method.
 
-  * When comparing objects whose ordering *depends on the context* or is
+  * When comparing objects whose ordering **depends on the context** or is
     subjective, use `Comparator`s. Examples: people, animals, opinions.
 
-  * To use comparators, *create a distinct class* for each possible ordering.
-    *Those classes* must implement `Comparator<MyClass>` and its `compare`
+  * To use comparators, **create a distinct class** for each possible ordering.
+    **Those classes** must implement `Comparator<MyClass>` and its `compare`
     method.
