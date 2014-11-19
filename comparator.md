@@ -18,8 +18,7 @@ work and how they differ in an intuitive way.
 An example: friend rankings
 ---------------------------
 
-Imagine that you are throwing a
-[tea party](https://www.youtube.com/watch?v=pdEcqSBx4J8) for your friends.
+Imagine that you are throwing a [tea party](https://www.youtube.com/watch?v=pdEcqSBx4J8) for your friends.
 However, your tea house is rather small, so you can't invite all of them.
 In this scenario, it might make sense to write a small program to objectively
 rank your friends based on some arbitrary criteria, to make sure that you only
